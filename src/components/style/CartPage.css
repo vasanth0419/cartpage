@@ -1,0 +1,72 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+}
+.card {
+  display: flex;
+
+  justify-content: left;
+  width: 80% !important;
+  margin: 10px;
+}
+.row {
+  border: gray solid;
+  border-radius: 30px;
+  height: 400px;
+  margin: 20px;
+}
+.cart-item .carousel-inner {
+  height: 300px;
+}
+
+.cart-item .carousel-item img {
+  height: 100%;
+  width: auto;
+}
+
+.cart-item .card {
+  height: 380px;
+  overflow: hidden;
+}
+.quantity {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer {
+  background-color: rgb(78, 73, 73);
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  width: 300px;
+  height: 150px;
+  border-radius: 30px;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.quantity button {
+  border-radius: 30px;
+  padding: 2px 8px;
+  color: white;
+  background-color: black;
+}
+.quantity p {
+  padding: 0px 3px;
+}
+.remove {
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+}
+.price{
+    font-weight: 400;
+}
